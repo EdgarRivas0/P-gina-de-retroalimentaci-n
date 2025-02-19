@@ -41,7 +41,7 @@ function updateGame() {
         pacman.x = canvas.width;
     }
     if (pacman.x === ghost.x && pacman.y === ghost.y) {
-        alert("¡El fantasma te atrapó!");
+        alert("¡Pac-Man te comio asi bien loco!");
         pacman.x = 50;
     }
 }
